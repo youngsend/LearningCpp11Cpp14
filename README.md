@@ -5,3 +5,6 @@ To improve my code quality, I'm reading Effective Modern C++.
 As I code using the same style with Carla API for about 2 months,
 I find that C++11 is so different from the C++ that I learned during my collage.
 I'm eager to be familiar with it and write self-satisfied code.
+
+As I read this book, I often recall the code in CARLA.
+In this case, I will paste these codes.
