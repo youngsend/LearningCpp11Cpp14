@@ -4,7 +4,8 @@
 
 - CMake is a **suite of tools** which covers everything from setting up a build right through to producing packages ready for distribution.
 
-  ![](/home/sen/senGit/LearningCpp11Cpp14/Professional-CMake/img/start-to-end-process-2020-05-29 20-09-49.png)
+  ![](img/start-to-end-process-2020-05-29 20-09-49.png)
+  
   - CTest, CPackもCMakeに含まれる。
 
 ## Chapter 2. Setting Up A Project
@@ -27,7 +28,7 @@
 - source directoryとbuild directoryは2種類の関係がある：**in-source** and **out-of-source** builds.
   - in-source buildは**discouraged**. ごちゃごちゃ。
 
-![](/home/sen/senGit/LearningCpp11Cpp14/Professional-CMake/img/project-directory-2020-05-29 21-55-48.png)
+![](img/project-directory-2020-05-29 21-55-48.png)
 
 ### 2.2 Out-of-source Builds
 
@@ -37,7 +38,7 @@
 
 - The developer selects the type of project file to be created by choosing a particular **project file *generator***.
 
-![](/home/sen/senGit/LearningCpp11Cpp14/Professional-CMake/img/project-file-generators-2020-05-29 22-03-48.png)
+![](img/project-file-generators-2020-05-29 22-03-48.png)
 
 - Multi-config、例えばDebug, Release. re-run CMakeの必要がない。
 
