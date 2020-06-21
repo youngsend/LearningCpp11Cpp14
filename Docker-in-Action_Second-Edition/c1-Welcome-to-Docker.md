@@ -37,9 +37,9 @@
 - Docker uses **Linux namespaces and cgroups**, which have been part of Linux since 2007.
   - Docker **doesn't provide the container technology**, but it specifically makes it simpler to use.
 
-![](img/command-line-2020-06-21 19-16-29.png)
+![](img/command-line-2020-06-21-19-16-29.png)
 
-![](img/running-container-2020-06-21 19-19-48.png)
+![](img/running-container-2020-06-21-19-19-48.png)
 
 - Each container is running as a **child process of the Docker engine**, wrapped with a container, and the delegate process is running in its own **memory subspace** of the user space.
 
@@ -74,9 +74,9 @@
 
 ## Getting organized
 
-![](img/dependencies-without-docker-2020-06-21 20-14-03.png)
+![](img/dependencies-without-docker-2020-06-21-20-14-03.png)
 
-![](img/dependencies-with-docker-2020-06-21 20-38-42.png)
+![](img/dependencies-with-docker-2020-06-21-20-38-42.png)
 
 - At first it seems like this would introduce storage overhead by creating redundant copies of common dependencies such as gcc.
   - Chapter 3 describes how the Docker packaging system typically reduces the storage overhead.
@@ -89,7 +89,7 @@
 
 ## Protecting your computer
 
-![](img/malicious-program-2020-06-21 21-01-37.png)
+![](img/malicious-program-2020-06-21-21-01-37.png)
 
 # 1.3 Why is Docker important
 
