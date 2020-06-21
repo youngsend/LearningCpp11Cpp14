@@ -12,7 +12,7 @@
   - It accomplishes this by using an **operating system technology** called *container*.
 - Install Docker Engine on Ubuntu: https://docs.docker.com/engine/install/ubuntu/
   - The contents of `/var/lib/docker/`, including images, containers, volumes, and networks, are preserved. The **Docker Engine package is now called `docker-ce`**.
-- `docker run dockerinaction/hello_world`の後発生したこと：![docker run](img/docker-run-2020-06-21 15-16-33.png)
+- `docker run dockerinaction/hello_world`の後発生したこと：![docker run](img/docker-run-2020-06-21-15-16-33.png)
   - `dockerinaction/hello_world`は*image/repository name*.
     - The **image** itself is a **collection of files and metadata**.
     - **Metadata** includes the **specific program to execute** and other relevant configuration details.
