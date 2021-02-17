@@ -1,10 +1,10 @@
-# LearningCpp11Cpp14
-Recently I've been involved in MapAPI development using Carla API.
-To improve my code quality, I'm reading Effective Modern C++.
+# Learning Modern C++, Docker, ROS, CMake
+Finished:
+- A Gentle Introduction to ROS (2014, Jason M. O'Kane)
+- A Tour of C++, Second Edition (2018, Stroustrup Bjarne)
+- Docker in Action, Second Edition (2019, Jeff Nickoloff, Stephen Kuenzli)
+- Effective Modern C++ (2014, Scott Meyers)
 
-As I code using the same style with Carla API for about 2 months,
-I find that C++11 is so different from the C++ that I learned during my collage.
-I'm eager to be familiar with it and write self-satisfied code.
-
-As I read this book, I often recall the code in CARLA.
-In this case, I will paste these codes.
+Reading (Not Finished):
+- C++ Concurrency in Action, Second Edition (2019, Anthony Williams)
+- Professional CMake, Fifth Edition (2019, Craig Scott)
