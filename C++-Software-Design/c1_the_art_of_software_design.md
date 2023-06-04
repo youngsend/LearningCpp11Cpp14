@@ -2,7 +2,7 @@
 
 - **Minimization of dependencies** is the goal of software architecture and design. 特にartificial dependencies.
   - Artificial dependenciesのディメリット：they make it harder to understand our software, change software, add new features, and write tests.
-- software developmentの３つレベル：![](Screenshot from 2023-06-03 10-31-12.png)
+- software developmentの３つレベル：![](img/software-development-levels-2023-06-03-10-31-12.png)
 
 # Guideline 2: design for change
 
