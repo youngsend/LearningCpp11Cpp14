@@ -41,4 +41,15 @@
 
 - Any value different from 0 represents logical true. つまりマイナスでもtrueとなる！実験済み。
 - **Don't compare to 0, false, or true**.
-- **All scalars have a truth value**.
+- **All scalars have a truth value**. Scalar types include all the numerical types and **pointer types**.
+- `case` values must be **integer constant expressions**.
+
+### Chapter 4: Expressing computations
+
+- In a freaky abuse of language, C jargon often refers to the right side as *rvalue* (right value) and to the object on the left as *lvalue* (left value). We will try to avoid that vocabulary whenever we can: **speaking of a value and an object is sufficient**.
+
+- **Don't use the `,` operator**. ２つの例：順番のオペレーター。
+  - `(f(a), f(b))`は`f(b)`と同じ。また、`A[i, j]`は２次元インデックスではなく、`A[j]`と同じ。
+
+### Chapter 5: Basic values and data
+

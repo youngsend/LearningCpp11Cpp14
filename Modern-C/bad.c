@@ -17,5 +17,11 @@ int main() {
     }
   }
 
+  // test for size_t
+  size_t size_of_a = 1U;
+  size_t size_of_b = 2U;
+  int result = size_of_a - size_of_b;
+  printf("result is %d\n", result);
+
   return EXIT_SUCCESS;
 }
