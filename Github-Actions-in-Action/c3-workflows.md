@@ -78,7 +78,7 @@
   ```
 
   - you can combine multiple schedule triggers in the same workflow, which can be helpful if you have a combination of multiple timings.
-  - workflow designerが人間が読める言葉を変換してくれる：![](ch03__image001.png)
+  - workflow designerが人間が読める言葉を変換してくれる：![](img/ch03__image001.png)
 
 - custom inputs for the **workflow_dispatch trigger** (まだよくわかっていない):
 
@@ -169,7 +169,7 @@
         - run: "echo Job: ${{ github.job }}"
   ```
 
-  ![](ch03__image007.png)
+  ![](img/ch03__image007.png)
 
 - **A job contains a sequence of steps**, and each step can run a command. 
 
@@ -226,7 +226,7 @@
             node-version: ${{ matrix.node_version }}
   ```
 
-  - run the same job for the NodeJS versions 12, 14, and 16 on ubuntu and macOS. ![](ch03__image009.png)
+  - run the same job for the NodeJS versions 12, 14, and 16 on ubuntu and macOS. ![](img/ch03__image009.png)
 
 ### 3.5 Expressions and Contexts
 
@@ -274,7 +274,7 @@
   echo "::error file=app.js,line=1,col=5,endColumn=7::Error in app.js"
   ```
 
-  ![](ch03__image011.png)
+  ![](img/ch03__image011.png)
 
 - **pass output to subsequent steps and jobs**:
 
@@ -324,7 +324,7 @@
     - run: echo '<h1>Great feature!</h1>' >> $GITHUB_STEP_SUMMARY
     ```
 
-    ![](ch03__image017.png)
+    ![](img/ch03__image017.png)
 
   - **write a job summary using the toolkit**:
 
@@ -345,15 +345,15 @@
           .write()
     ```
 
-    ![](ch03__image019.png)
+    ![](img/ch03__image019.png)
 
 ### 3.7 Secrets and variables
 
-- the hierarchy for configuration variables and secrets. ![](ch03__image021.png)
+- the hierarchy for configuration variables and secrets. ![](img/ch03__image021.png)
 
 - **secrets**: A special form of **configuration variables** are secrets. They are stored  encrypted and are **only decrypted at runtime**. They are also **protected and masked in the workflow log**.
 
-- Secrets and variables can be set using the UI or CLI. ![](ch03__image023.png)
+- Secrets and variables can be set using the UI or CLI. ![](img/ch03__image023.png)
   - secrets, variablesのネーミング：Best practice is to name the secrets with upper-case words separated by the underscore character.
 
 ### 3.8 Workflow permissions
@@ -376,7 +376,7 @@
 
   - The workflow needs read permissions for content to read the configuration and it needs write permissions for pull-requests to apply the label. All other permissions will be non.
 
-- Actions performed with the `GITHUB_TOKEN` will be in the history as performed by the *github-actions bot*: ![](ch03__image025.png)
+- Actions performed with the `GITHUB_TOKEN` will be in the history as performed by the *github-actions bot*: ![](img/ch03__image025.png)
 
 ### 3.9 Authoring and debugging workflows
 
@@ -405,7 +405,7 @@
 
     - Especially the smart validation is a great help. It supports code  completion for referenced actions and reusable workflows and will parses parameters, inputs, and outputs for referenced actions and provides  validation, code completion, and inline documentation. **Together with GitHub Copilot this increases quality and speed for authoring workflows tremendously.**
 
-    ![](ch03__image027.png)
+    ![](img/ch03__image027.png)
 
 - workflowの一般的な開発流れ：
   - **In general, it is normally the best approach to first run and debug  deployment scripts locally or on a virtual machine first and move them  to the workflow when you know they will work.** 
